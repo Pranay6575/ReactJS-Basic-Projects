@@ -30,7 +30,7 @@ const SearchResult = ({ foodData }) => {
 export default SearchResult;
 
 const FoodCardSection = styled.section`
-  height: calc(100vh - 210px);
+  min-height: calc(100vh - 210px);
   background-image: url("../public/bg.svg");
   background-size: cover;
   
